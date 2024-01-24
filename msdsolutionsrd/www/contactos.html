@@ -1,0 +1,154 @@
+{% extends "msdsolutionsrd/www/templates/base.html" %}
+{% block header %}
+<header id="master-head" class="navbar menu-absolute menu-center menu-light" style="background: linear-gradient(-84deg, #1f53bc 0%, #291fbc 100%) !important; color: aliceblue;">
+            <div class="container-fluid" style="color: aliceblue !important;">
+                <div id="main-logo" class="logo-container">
+                    <a class="logo" href="index">
+                        <img src="images/logo.jpg" class="logo-dark" style="border-radius: 30px;" alt="DCode">
+                        <img src="images/logo.jpg" class="logo-light" style="border-radius: 30px;" alt="DCode">
+                    </a>
+                </div>
+                <div class="menu-toggle-btn">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle">
+                        <div class="burger-lines">
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+                <div id="navigation" class="nav navbar-nav navbar-main">
+                    <ul id="main-menu" class="menu-primary">
+                        <li class="menu-item menu-item-has-children active">
+                            <a href="index.html" style="color: aliceblue;">Home</a>
+                            <ul class="sub-menu">
+                    
+                                <li class="menu-item"><a href="index-payment-software.html">Payment Software</a></li>
+             
+                             
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="servicios" style="color: aliceblue;">Servicios</a>
+                            
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="blogs" style="color: aliceblue;">Blog</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="nosotros" style="color: aliceblue;">Nosotros
+
+                            </a>
+                           
+                        </li>
+                        <li class="menu-item menu-item-has-children mega-menu">
+                            <a href="contactos" style="color: aliceblue;">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <div class="menu-button">
+                        <a href="#" target="_blank">
+                            <div class="btn btn-outline-primary btn-light" style="color: aliceblue;">sign in</div>
+                        </a>
+                    </div>
+                    <div class="search-option style-dark">
+                        <div class="search-btn">
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+{% endblock %}
+{% block content %}
+            <!-- Main Wrapper -->
+            <div id="main-wrapper" class="page-wrapper">
+                <div class="inner-page-header section-padding style-dark">
+                    <div class="container">
+                        <div class="page-title-inner text-center clearfix">
+                            <div class="heading-wrapper">
+                                <h1 class="h1">Contact Us</h1>
+                                <div class="lead-text">
+                                    <h2  style="color: #1f53bc !important; font-family:'Times New Roman', Times, serif ;">Contáctenos para ver si nuestra firma puede ayudarlo a hacer crecer su empresa en línea..</h2>
+                                </div>
+                            </div><!-- End Heading -->
+                            <ul class="st-breadcrumb">
+                                <li><a href="index.html" style="color: #1f53bc;">Home</a></li>
+                            </ul><!-- End Breadcrumb -->
+                        </div><!-- Page Title Inner -->
+                    </div>
+                </div>
+                <!-- Page Header -->
+                <div class="about-section section-padding">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-4">
+                                <div class="contact-info-box wow fadeInLeft" data-wow-delay="0.8s">
+                                    <div class="contact-wrapper">
+                                        <div class="icon">
+                                            <i class="mdi mdi-phone-incoming-outline"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Phone</h4>
+                                            <p>Nuestro servicio de atención al cliente está abierto de lunes a viernes,, 10:00 am to 6:00 pm</p>
+                                            <p><a class="btn link-btn" href="tel:1234567890">809-741-9533</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-info-box wow fadeInLeft" data-wow-delay="1s">
+                                    <div class="contact-wrapper">
+                                        <div class="icon">
+                                            <i class="mdi mdi-email-open-outline"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Email</h4>
+                                            <p>Nuestro equipo de soporte se comunicará con usted en 48 h durante el horario comercial estándar..</p>
+                                            <p><a class="btn link-btn" href="dominicansolutions.srl@gmail.com">dominicansolutions.srl@gmail.com</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- End Col -->
+                            <div class="col-lg-8">
+                                <div class="heading-wrapper with-separator">
+                                    <span class="sub-title">PONERSE EN CONTACTO</span>
+                                    <h2 class="h1"><span>Conéctate con </span>nosotros</h2>
+                                </div><!-- End Heading -->
+                                <div class="text-wrapper">
+                                    <p>Nuestra Oficina en el Limpio de Zambrana Abajo, Cotui, Provincia Sánchez Ramírez;</p>
+                                </div>
+                                <div class="contact-form">
+                                    <form method="post">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="FiratName" placeholder="First Name" required="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email Address" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" placeholder="How can I help you?" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Tell me more about your requirement"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-primary" value="Send Message">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div><!-- End Col -->
+                        </div><!-- End Row -->
+                    </div>
+                </div><!-- About Section -->
+                <div class="map-custom-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124614.04393659731!2d-70.4175471!3d19.0500662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb22644f7c719cd%3A0x5f8641e6e88c4f7e!2sCotu%C3%AD%2C%20Dominican%20Republic!5e0!3m2!1sen!2sin!4v1642878639017!5m2!1sen!2sin" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div><!-- Map Section -->
+                
+            </div>
+            <!-- Main Wrapper -->
+{% endblock %}
